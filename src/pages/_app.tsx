@@ -13,6 +13,11 @@ const MyApp: NextComponentType<AppContext, AppInitialProps, AppProps> = ({ Compo
         <meta name="description" content="Emotion Game" />
         <meta name="author" content="devho813 <devho813@gmail.com>" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
+
+        <link
+          href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;900&display=swap"
+          rel="stylesheet"
+        ></link>
       </Head>
       <GlobalStyles />
       <Component {...pageProps} />

@@ -21,11 +21,14 @@ const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
   }
   html{
-    font-family: sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
   }
   body{
     letter-spacing: -0.025em;
     overflow-x: hidden;
+    color: rgb(29, 29, 31);
+    background-color: white;
   }
   html, body, #__next{
     width: 100%;

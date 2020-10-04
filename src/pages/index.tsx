@@ -1,19 +1,14 @@
 import styled from 'styled-components';
+import Gnb from '../components/Gnb';
+import Lnb from '../components/Lnb';
 
 export default function Home() {
   return (
     <HomeContainer>
-      <h1>👋 Emotion Game</h1>
+      <Gnb />
+      <Lnb />
     </HomeContainer>
   );
 }
 
-const HomeContainer = styled.div`
-  margin-top: 15px;
-  text-align: center;
-
-  h1 {
-    color: #f1c40f;
-    font-size: 25px;
-  }
-`;
+const HomeContainer = styled.div``;
